@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on luzing</title>
+    <link>https://luzing.github.io/tags/</link>
+    <description>Recent content in Tags on luzing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 08 Mar 2021 02:40:22 +0800</lastBuildDate><atom:link href="https://luzing.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>java</title>
+      <link>https://luzing.github.io/tags/java/</link>
+      <pubDate>Mon, 08 Mar 2021 02:40:22 +0800</pubDate>
+      
+      <guid>https://luzing.github.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>基础</title>
+      <link>https://luzing.github.io/tags/%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Mon, 08 Mar 2021 02:40:22 +0800</pubDate>
+      
+      <guid>https://luzing.github.io/tags/%E5%9F%BA%E7%A1%80/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

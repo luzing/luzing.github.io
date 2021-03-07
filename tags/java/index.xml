@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>java on luzing</title>
+    <link>https://luzing.github.io/tags/java/</link>
+    <description>Recent content in java on luzing</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Mon, 08 Mar 2021 02:40:22 +0800</lastBuildDate><atom:link href="https://luzing.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Java笔记（二）</title>
+      <link>https://luzing.github.io/post/java%E7%AC%94%E8%AE%B0%E4%BA%8C/</link>
+      <pubDate>Mon, 08 Mar 2021 02:40:22 +0800</pubDate>
+      
+      <guid>https://luzing.github.io/post/java%E7%AC%94%E8%AE%B0%E4%BA%8C/</guid>
+      <description>第二章Java基本语法 一、关键字和保留字 1.1关键字  定义：被Java语言赋予特殊含义，用做专门用途的字符串 特点：关键字中字母都是小写   1.2保留字 现在Java版本尚未使用，但以后版本可能会作为关键字使用。自己命名标识符时要避免。
+例如：goto、const
+二、标识符 定义：Java对各种变量、方法和类等要素命名时使用的字符序列称为标识符（但凡是自己命名的地方都叫标识符）
+2.1定义合法标识符规则：  由26个英文字母大小写，0-9，_或$组成 数字不可以开头 不可以使用关键字和保留字，但能包含关键字和保留字 Java中严格区分大小写，长度无限制 标识符不能包含空格  2.2Java中名称命名规范：  包名：对单词组成时所有字母都要小写：xxxyyyzzz 类名、接口名：多单词组成时，所有单词首字母大写：XxYyZz 变量名、方法名：多单词组成时，第一个单词首字母小写，第二个单词开始每个单词首字母大写xxxYyZz 常量名：所有字母都大写，多单词时每个单词用下划线连接：XXX_YYY_ZZZ  注意1：在起名字时，为了提高阅读性，尽量使用有意义，“见名知意”。
+注意2：Java采用unicode字符集，因此标识符也可以使用汉字声明，但是不建议。
+三、变量 3.1变量的概念  内存中的一个储存区域 该区域的数据可以在同一类型范围内不断变化 变量是程序中最基本的储存单元。包含变量类型、变量名和储存的值  3.2变量的使用   Java的声明和赋值格式：
+数据类型 变量名 = 变量值
+  注意
+  变量必须先声明，后使用
+  变量都定义在作用域内。在作用域内，他是有效的，换句话说，出了作用域他就失效了
+  同一个作用域内，不可以声明两个同名的变量
+  3.3java的数据类型 注意：
+  法体外，类体内声明的变量称为成员变量。
+  法体内部声明的变量称为局部变量。
+  二者在初始化值方面的异同：</description>
+    </item>
+    
+    <item>
+      <title>Java笔记（一）</title>
+      <link>https://luzing.github.io/post/java%E7%AC%94%E8%AE%B0%E4%B8%80/</link>
+      <pubDate>Mon, 08 Mar 2021 01:34:55 +0800</pubDate>
+      
+      <guid>https://luzing.github.io/post/java%E7%AC%94%E8%AE%B0%E4%B8%80/</guid>
+      <description>第一章Java语言概述 一、DOS命令 常用的dos命令
+ dir：列出当前目录下的文件及文件夹 md：创建目录 rd：删除目录 cd：进入指定目录 cd..：退回到上一级目录 cd\：退回到根目录 del：删除文件 exit：退出dos命令行  常用快捷键
+ ⬅ ➡：移动光标 ⬆ ⬇：调阅历史操作命令  二、Java技术体系平台 三、Java语言特点   特点一：面向对象
+两个基本概念：类、对象
+三大特性：封装、继承、多态
+  特点二：健壮性
+吸收C/C++的优点，但去掉了影响程序健壮性的部分（如指针、内存的申请与释放），提供了一个相对安全的内存管理和访问机制
+  特点三：跨平台性
+跨平台性，通过Java语言编写的应用程序在不同的系统平台上都可以运行。
+原理：只需要在运行Java应用程序的操作系统上，先安装一个Java虚拟机JVM即可。由JVM来负责程序在系统中的运行。
+  四、JDK、JRE、JVM关系 五、Java语言的环境搭建 六、第一个Java程序 步骤一：编写 public class Test{ public static void main(String[]args){ System.out.println(&amp;#34;Hello World!&amp;#34;); } } 步骤二：编译 有了Java源文件，通过编译器将其编译成JVM可以识别的字节码文件 在该文件目录下，通过Javac编译工具对Test,java文件进行编译 如果程序没有错误，没有任何提示，但在当前目录下会出现一个Test.class文件，该文件称为字节码文件，也是可以执行的Java程序。
+步骤三：运行 七、注释 /* 1. java的注释方式 单行注释 多行注释 文档注释 2. 单行注释和多行注释的作用 ①对写好的程序进行解释说明，增加文章的可读性，方便自己，方便别人 ②对写的代码进行调试，找出bug 3. 特点： 单行注释和多行注释不参与编译 4.</description>
+    </item>
+    
+  </channel>
+</rss>
